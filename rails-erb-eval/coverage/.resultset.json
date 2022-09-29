@@ -1,0 +1,22 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/app/rails-erb-eval/app/controllers/sample_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/app/rails-erb-eval/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1664445577
+  }
+}
