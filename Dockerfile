@@ -11,9 +11,7 @@ RUN apt-get update \
  && mkdir build && cd build \
  && mkdir ~/.rubies \
  && ../configure --prefix="${HOME}/.rubies/ruby-master" \
- && make install
-
-RUN mv /usr/bin/ruby /usr/bin/ruby.backup \
+ && make install \
+ && mv /usr/bin/ruby /usr/bin/ruby.backup \
  && mv /usr/bin/gem /usr/bin/gem.backup \
  && echo "export PATH=${HOME}/.rubies/ruby-master/bin:${PATH}" > ~/.bashrc \
-
