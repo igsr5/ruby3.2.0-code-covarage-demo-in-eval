@@ -6,3 +6,5 @@ services:
       - .:/app
     ports:
       - 3000:3000
+    environment:
+      - PATH=$PATH:~/.rubies/ruby-master/bin
